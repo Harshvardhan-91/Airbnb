@@ -1,6 +1,6 @@
 # Airbnb project setup
 ## **Introduction**
-This project is a Full Stack Airbnb Clone built using modern web development technologies. It utilizes the latest **Next.js 13 App Router** for a cutting-edge architecture, integrating server-side rendering (SSR) and client-side rendering (CSR) efficiently. This project replicates core Airbnb functionalities such as property listings, user authentication, booking systems, and more.
+This project is a Full Stack Airbnb built using modern web development technologies. It utilizes the latest **Next.js 13 App Router** for a cutting-edge architecture, integrating server-side rendering (SSR) and client-side rendering (CSR) efficiently. This project replicates core Airbnb functionalities such as property listings, user authentication, booking systems, and more.
 
 ---
 
