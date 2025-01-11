@@ -5,8 +5,8 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Navbar from "./components/navbar/Navbar";
 import ClientOnly from "./components/ClientOnly";
-import Modal from "./components/modals/Modal";
-
+import RegisterModal from "./components/modals/RegisterModal";
+import ToasterProvider from "./providers/ToasterProvider"
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -33,7 +33,8 @@ export default function RootLayout({
     <html lang="en">
       <body className = {font.className}>
         <ClientOnly>
-            <Modal actionLabel="Submit" title="Hello World" isOpen/>
+            <ToasterProvider />
+            <RegisterModal/>  
             <Navbar/>
         </ClientOnly>
         
